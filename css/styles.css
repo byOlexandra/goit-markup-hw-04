@@ -287,6 +287,24 @@ section {
     letter-spacing: 0.02em;
 }
 
+
+.team-icons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* portfolio section  */
 
 .portfolio-title {
