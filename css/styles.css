@@ -85,6 +85,8 @@ section {
 
 .studio {
     position: relative;
+    color: #404bbf;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio::after {
@@ -94,7 +96,7 @@ section {
     border-radius: 2px;
     width: 100%;
     height: 4px;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
 }
 
@@ -105,6 +107,7 @@ section {
     letter-spacing: 0.02em;
     padding: 24px 0;
     display: block;
+     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu:focus {
     color: #404bbf;
@@ -134,6 +137,7 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email:hover,
@@ -144,6 +148,7 @@ section {
 /* hero */
 
 .header-section {
+    
     background-color: #2E2F42;
     background-image: 
     linear-gradient(
@@ -157,7 +162,7 @@ section {
     background-position: 50% 50%;
     text-align: center;
     padding: 188px 0;
-    width: 100%;
+    
 }
 
 
@@ -320,9 +325,14 @@ section {
     margin-top: 8px;
 }
 
-.circle {
+.team-icons-list-item {
     width: 40px;
     height: 40px;
+}
+
+.circle {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-color: #4D5AE5;
     display: flex;
@@ -333,7 +343,8 @@ section {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.circle:hover {
+.circle:hover 
+.circle:focus {
     background-color: #404BBF;
 }
 
